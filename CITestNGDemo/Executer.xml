@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="testList" parallel="tests" thread-count="5">
-  <!--<
-  test name="ENTER TEST NAME e.g. COE App on_android_GalaxyS5">
-    <parameter name="deviceID" value="0149BCA71700D01F">
-      <classes>
-        <class name="tests.java.TestNGUnitedTest" />
-      </classes>
-    </parameter>
-  </test>
---><test name="united-iphone">
+  <test name="united-iphone">
     <parameter name="deviceID" value="6D0250B1CECE7730CE322AD9CD7209665AB909BB">
       <classes>
         <class name="test.java.TestNGUnitedTest" />
@@ -24,13 +16,3 @@
     </parameter>
   </test>
 </suite>
-<!--<
-  test name="new_android">
-    <parameter name="deviceID" value="0149BCA71700D01F">
-      <classes>
-        <class name="tests.TestNGUnitedTest" />
-      </classes>
-    </parameter>
-  </test>
--->
-<!-- -->
